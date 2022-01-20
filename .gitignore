@@ -30,8 +30,6 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-/bin/
-
 # Created by https://www.toptal.com/developers/gitignore/api/rubymine
 # Edit at https://www.toptal.com/developers/gitignore?templates=rubymine
 

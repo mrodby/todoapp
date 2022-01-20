@@ -1,4 +1,4 @@
-<h1>Create a new Todo</h1>
+<h1>Edit an existing Todo</h1>
 
 <% if @todo.errors.any? %>
   <h2>The following errors prevented todo from being saved:</h2>
@@ -15,7 +15,7 @@ Name: <%= @todo.name %><br>
 Description: <%= @todo.description %><br>
 ID: <%= @todo.id %><br>
 
-<%= form_with model: @todo, local: true do |f| %>
+<%= form_for @todo do |f| %>
 
   <p>
     <%= f.label :name %><br>
